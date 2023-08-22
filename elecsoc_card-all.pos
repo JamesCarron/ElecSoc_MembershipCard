@@ -1,0 +1,27 @@
+### Footprint positions - created on Tue 22 Aug 2023 06:30:57 IST ###
+### Printed by KiCad version 7.0.6-7.0.6~ubuntu22.04.1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val             Package                                             PosX       PosY       Rot  Side
+C1        47u             C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     174.5000   -69.0000  -90.0000  top
+D1        WHITE           LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder   111.9750   -78.5000   90.0000  top
+D2        WHITE           LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder   124.4750   -76.5000   90.0000  top
+D3        WHITE           LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder   133.4750   -78.0000   90.0000  top
+D4        WHITE           LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder   155.4750   -80.0000   90.0000  top
+D5        WHITE           LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder   144.4750   -79.0000   90.0000  top
+D6        RED             LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder   158.0000   -86.5000  -90.0000  top
+D7        RED             LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder   149.0000   -90.5000  -90.0000  top
+D8        RED             LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder   139.9750   -86.5000   90.0000  top
+J1        Conn_01x02_Pin  USB_A_Male_inboard                              174.8555   -63.1948  -45.0000  top
+R1        4k99            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     160.0000   -67.4625   90.0000  top
+R2        4k99            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     161.0000   -62.9625    0.0000  top
+R3        392             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     112.0000   -70.5000  -90.0000  top
+R4        392             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     124.5000   -70.5000  -90.0000  top
+R5        392             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     133.5000   -70.5000  -90.0000  top
+R6        392             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     155.5000   -70.5000  -90.0000  top
+R7        392             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     144.5000   -70.5000  -90.0000  top
+R8        150             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     158.0000   -95.5000  -90.0000  top
+R9        150             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     135.5000   -95.5000  -90.0000  top
+R10       150             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     112.0000   -95.5000  -90.0000  top
+U1        NA555D          SOIC-8_3.9x4.9mm_P1.27mm                        168.1250   -65.9050  180.0000  top
+## End
