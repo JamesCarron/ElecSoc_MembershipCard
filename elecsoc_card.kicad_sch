@@ -1131,6 +1131,12 @@
 		(uuid "bbc99d08-3ceb-4e2a-9654-f70542dc1447")
 	)
 	(junction
+		(at 181.61 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca370be4-e5d2-4d99-810c-b47d865230a6")
+	)
+	(junction
 		(at 120.65 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1299,6 +1305,16 @@
 			(type default)
 		)
 		(uuid "15920435-96bf-45f4-9fc2-c417c551acfe")
+	)
+	(wire
+		(pts
+			(xy 181.61 96.52) (xy 193.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1649de87-a2ad-4c42-b521-a3d66e1314f0")
 	)
 	(wire
 		(pts
@@ -1572,6 +1588,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 106.68) (xy 193.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741d13d7-5377-4ae0-879e-4fd6d02d933e")
+	)
+	(wire
+		(pts
 			(xy 238.76 36.83) (xy 251.46 36.83)
 		)
 		(stroke
@@ -1599,6 +1625,16 @@
 			(type default)
 		)
 		(uuid "7be072d1-9077-4295-b4f1-8f099a07924f")
+	)
+	(wire
+		(pts
+			(xy 193.04 97.79) (xy 193.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3b48db-be9e-4dfe-9e34-2ddc19a9cd8f")
 	)
 	(wire
 		(pts
@@ -1699,6 +1735,16 @@
 			(type default)
 		)
 		(uuid "a0a2b34e-b546-4379-9bb7-7ab069680a3d")
+	)
+	(wire
+		(pts
+			(xy 193.04 105.41) (xy 193.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1929950-09b5-490a-9e0b-920725b822a5")
 	)
 	(wire
 		(pts
@@ -1961,6 +2007,18 @@
 		(uuid "fd2e5766-95d2-4928-9834-e356e6579a86")
 	)
 	(rectangle
+		(start 39.37 144.78)
+		(end 161.29 189.23)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4645b970-2b39-4455-9ff9-269044bb98e3)
+	)
+	(rectangle
 		(start 180.34 26.67)
 		(end 204.47 46.99)
 		(stroke
@@ -1986,7 +2044,7 @@
 	)
 	(rectangle
 		(start 175.26 71.12)
-		(end 190.5 109.22)
+		(end 214.63 109.22)
 		(stroke
 			(width 0)
 			(type default)
@@ -2009,7 +2067,7 @@
 	)
 	(text "RED Leds\nVf = 3V\nIf = 5mA\nRled = (Vs - Vf)/If = (5 - 3)/0.005 = 400\n\nWhite Leds\nVf = 2.9\nIf = 5m\nRled = (Vs - Vf)/If = (5 - 2.9)/0.005 = 420"
 		(exclude_from_sim no)
-		(at 195.58 124.46 0)
+		(at 231.648 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2020,7 +2078,7 @@
 	)
 	(text "T = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 50k * 10u \n  = 1.04s"
 		(exclude_from_sim no)
-		(at 196.85 104.14 0)
+		(at 232.918 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2040,9 +2098,20 @@
 		)
 		(uuid "28e4272d-12c0-41a7-a954-0aaec28e2ab9")
 	)
+	(text "If optional caps added:\nT = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 50k * 10u \n  = 1.663s\nT = 0.693*(R1+2*R2)*(C1+C2)\n  = 0.693 * 3 * 50k * 20u \n  = 3.326s"
+		(exclude_from_sim no)
+		(at 190.246 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38502fa7-3827-4c1b-898f-82fcc48dc5eb")
+	)
 	(text "T = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 10k * 47u \n  = 0.97s"
 		(exclude_from_sim no)
-		(at 196.85 95.25 0)
+		(at 232.918 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2051,7 +2120,7 @@
 		)
 		(uuid "3b18cd05-1b8a-4e89-890a-6aefb0aeb741")
 	)
-	(text "If properly soldered, voltage drop at R12 should be 2V5\n"
+	(text "If properly soldered, voltage drop should be 2V5\n"
 		(exclude_from_sim no)
 		(at 108.966 161.798 0)
 		(effects
@@ -2130,7 +2199,7 @@
 	)
 	(text "Resistors and capacitance values for oscillator"
 		(exclude_from_sim no)
-		(at 196.85 80.01 0)
+		(at 232.918 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2152,7 +2221,7 @@
 	)
 	(text "T = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 4.99k * 47u \n  = 0.487s"
 		(exclude_from_sim no)
-		(at 196.85 86.36 0)
+		(at 232.918 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2163,7 +2232,7 @@
 	)
 	(text "Extra components for soldering practice\n"
 		(exclude_from_sim no)
-		(at 59.69 139.954 0)
+		(at 39.116 143.256 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3155,7 +3224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.188 173.99 90)
 			(effects
 				(font
@@ -3955,7 +4024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.808 173.99 90)
 			(effects
 				(font
@@ -4770,6 +4839,76 @@
 			(project "elecsoc_card"
 				(path "/ec1e128b-e85b-4f54-a1e1-536be465431f"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0c3ca88-5c96-4484-a686-91973b1fb856")
+		(property "Reference" "C3"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 196.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 192.0748 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ie/datasheet/2/281/1/GRT155D70G106ME13_01A-3135786.pdf"
+			(at 193.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a0bc357-00a6-4b68-9a87-fef86dd5a822")
+		)
+		(pin "2"
+			(uuid "534781b7-a934-4ed6-8397-14d88d8adf8b")
+		)
+		(instances
+			(project "elecsoc_card"
+				(path "/ec1e128b-e85b-4f54-a1e1-536be465431f"
+					(reference "C3")
 					(unit 1)
 				)
 			)
