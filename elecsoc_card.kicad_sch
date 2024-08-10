@@ -1071,6 +1071,18 @@
 		(uuid "05a17a33-cc66-4c90-a6c9-fa15b209fe6f")
 	)
 	(junction
+		(at 193.04 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "091e85d6-3591-49c0-a2cf-46d7052b5dba")
+	)
+	(junction
+		(at 181.61 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "132eef56-59fb-48cd-baff-a6f607878f7c")
+	)
+	(junction
 		(at 111.76 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1105,6 +1117,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "648fca5b-8095-4a83-9bf4-d5958e93ed1a")
+	)
+	(junction
+		(at 193.04 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a7a1de9-c94a-403e-bc04-a88bd34018cd")
 	)
 	(junction
 		(at 93.98 91.44)
@@ -1588,6 +1606,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 86.36) (xy 193.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2f1cfc-4d12-4d6b-9f6f-4b10506d3557")
+	)
+	(wire
+		(pts
 			(xy 181.61 106.68) (xy 193.04 106.68)
 		)
 		(stroke
@@ -1678,6 +1706,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 76.2) (xy 193.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb8c357-82f9-4425-8833-ebfcdc676815")
+	)
+	(wire
+		(pts
 			(xy 85.09 74.93) (xy 85.09 78.74)
 		)
 		(stroke
@@ -1715,6 +1753,16 @@
 			(type default)
 		)
 		(uuid "978b544a-cf72-48cf-8926-bb331b5fb012")
+	)
+	(wire
+		(pts
+			(xy 181.61 86.36) (xy 193.04 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e80e3f-4773-4b1c-b7fe-645a8fcaffdb")
 	)
 	(wire
 		(pts
@@ -1765,6 +1813,16 @@
 			(type default)
 		)
 		(uuid "ac6fbd35-5253-4315-ae69-abd5f2d440b0")
+	)
+	(wire
+		(pts
+			(xy 193.04 95.25) (xy 193.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4f51ae-4206-4171-9ea6-55a52041dad9")
 	)
 	(wire
 		(pts
@@ -1978,6 +2036,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 78.74) (xy 193.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1dce3ec-2ecc-4477-8bcd-f6375331e2b4")
+	)
+	(wire
+		(pts
 			(xy 168.91 86.36) (xy 181.61 86.36)
 		)
 		(stroke
@@ -2087,6 +2155,17 @@
 		)
 		(uuid "15837bff-c3f2-43b3-bf4d-db76729f4426")
 	)
+	(text "If optional resistors added:\nT = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 50k * 10u \n  = 1.663s\nT = 0.693*(R1/2+2*R2/2)*C1\n  = 0.693 * 3 * 40k * 10u \n  = 0.832s"
+		(exclude_from_sim no)
+		(at 190.754 141.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "285647be-23c8-4c8c-8bf3-6e25827d23c3")
+	)
 	(text "0603"
 		(exclude_from_sim no)
 		(at 103.632 181.864 0)
@@ -2098,7 +2177,7 @@
 		)
 		(uuid "28e4272d-12c0-41a7-a954-0aaec28e2ab9")
 	)
-	(text "If optional caps added:\nT = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 50k * 10u \n  = 1.663s\nT = 0.693*(R1+2*R2)*(C1+C2)\n  = 0.693 * 3 * 50k * 20u \n  = 3.326s"
+	(text "If optional caps added:\nT = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 50k * 10u \n  = 1.663s\nT = 0.693*(R1+2*R2)*(C1+C3)\n  = 0.693 * 3 * 50k * 20u \n  = 3.326s"
 		(exclude_from_sim no)
 		(at 190.246 125.73 0)
 		(effects
@@ -2219,6 +2298,17 @@
 		)
 		(uuid "c47bdd2a-69d1-4a85-819c-e5e56679aaaf")
 	)
+	(text "If all components placed, result is the original period\nT = 0.693*(R1/2+2*R2/2)*(C1+C2)\n  = 0.693 * 3 * 40k * 20u \n  = 1.663s"
+		(exclude_from_sim no)
+		(at 189.992 150.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c61d436c-0bcd-4064-babf-d9a9f6643e6a")
+	)
 	(text "T = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 4.99k * 47u \n  = 0.487s"
 		(exclude_from_sim no)
 		(at 232.918 80.01 0)
@@ -2318,6 +2408,77 @@
 			(project "elecsoc_card"
 				(path "/ec1e128b-e85b-4f54-a1e1-536be465431f"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04716d29-b654-47a2-815a-831f8786ce4f")
+		(property "Reference" "R19"
+			(at 195.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "80k"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 194.818 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0cb87e6-2cd8-41d7-b534-f4c9ef42237f")
+		)
+		(pin "2"
+			(uuid "383339a5-e95f-42e5-adca-428fb2a5f653")
+		)
+		(instances
+			(project "elecsoc_card"
+				(path "/ec1e128b-e85b-4f54-a1e1-536be465431f"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5339,6 +5500,77 @@
 			(project "elecsoc_card"
 				(path "/ec1e128b-e85b-4f54-a1e1-536be465431f"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1e08899-63de-4a76-b4f6-643cd16cdd48")
+		(property "Reference" "R18"
+			(at 195.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "80k"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 194.818 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8ec7982-7638-48b0-868c-f51b862fd32b")
+		)
+		(pin "2"
+			(uuid "d2cd65db-d820-402a-99c3-7696a62a8fd6")
+		)
+		(instances
+			(project "elecsoc_card"
+				(path "/ec1e128b-e85b-4f54-a1e1-536be465431f"
+					(reference "R18")
 					(unit 1)
 				)
 			)
