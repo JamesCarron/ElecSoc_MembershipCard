@@ -2167,7 +2167,7 @@
 		)
 		(uuid "15837bff-c3f2-43b3-bf4d-db76729f4426")
 	)
-	(text "If optional resistors added:\nT = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 50k * 10u \n  = 1.04s\nT = 0.693*(R1/2+2*R2/2)*C1\n  = 0.693 * 3 * 25k * 10u \n  = 0.52s"
+	(text "If optional resistors added:\nT = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 50k * 10u \n  = 1.663s\nT = 0.693*(R1/2+2*R2/2)*C1\n  = 0.693 * 3 * 40k * 10u \n  = 0.832s"
 		(exclude_from_sim no)
 		(at 190.754 141.732 0)
 		(effects
@@ -2189,7 +2189,7 @@
 		)
 		(uuid "28e4272d-12c0-41a7-a954-0aaec28e2ab9")
 	)
-	(text "If optional caps added:\nT = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 50k * 10u \n  = 1.04s\nT = 0.693*(R1+2*R2)*(C1+C3)\n  = 0.693 * 3 * 50k * 20u \n  = 2.079s"
+	(text "If optional caps added:\nT = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 50k * 10u \n  = 1.663s\nT = 0.693*(R1+2*R2)*(C1+C3)\n  = 0.693 * 3 * 50k * 20u \n  = 3.326s"
 		(exclude_from_sim no)
 		(at 190.246 125.73 0)
 		(effects
@@ -2310,7 +2310,7 @@
 		)
 		(uuid "c47bdd2a-69d1-4a85-819c-e5e56679aaaf")
 	)
-	(text "If all components placed, result is the original period\nT = 0.693*(R1/2+2*R2/2)*(C1+C2)\n  = 0.693 * 3 * 25k * 10u \n  = 1.04s"
+	(text "If all components placed, result is the original period\nT = 0.693*(R1/2+2*R2/2)*(C1+C2)\n  = 0.693 * 3 * 40k * 20u \n  = 1.663s"
 		(exclude_from_sim no)
 		(at 189.992 150.622 0)
 		(effects
@@ -2456,7 +2456,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "80k"
 			(at 195.58 83.8199 0)
 			(effects
 				(font
@@ -5188,7 +5188,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "80k"
 			(at 184.15 92.7099 0)
 			(effects
 				(font
@@ -5398,7 +5398,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "80k"
 			(at 184.15 83.8199 0)
 			(effects
 				(font
@@ -5548,7 +5548,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "80k"
 			(at 195.58 92.7099 0)
 			(effects
 				(font
