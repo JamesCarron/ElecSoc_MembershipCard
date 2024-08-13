@@ -853,7 +853,7 @@
 		(at 155.5 70.5 -90)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R6"
+		(property "Reference" "R3"
 			(at 0 -1.82 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1283,7 +1283,7 @@
 		(at 144.5 70.5 -90)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R7"
+		(property "Reference" "R4"
 			(at 0 -1.82 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1634,7 +1634,7 @@
 		(at 155.475 80 90)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at -2 -1.975 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2095,7 +2095,7 @@
 		(at 124.5 70.5 -90)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 0 -1.82 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2736,7 +2736,7 @@
 		(at 144.475 79 90)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at -3 0.025 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3627,7 +3627,7 @@
 		(at 112 70.5 -90)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 0 -1.82 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5965,7 +5965,7 @@
 		(at 124.475 76.5 90)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at -3 0.025 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7716,7 +7716,7 @@
 		(at 111.975 78.5 90)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at -2.5 2.025 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -17298,6 +17298,186 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "*"
+		(at 152.5 57.8 0)
+		(layer "F.SilkS")
+		(uuid "0b90bb52-af71-4e63-b398-042dfe3140ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0805"
+		(at 164.1 91 0)
+		(layer "F.SilkS")
+		(uuid "0c3bcd3a-d317-4431-94ba-b1a3b6704302")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1206"
+		(at 161 57.9 0)
+		(layer "F.SilkS")
+		(uuid "0e7801ae-59da-494d-8d98-b3c96c6bca18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0402"
+		(at 123.2 97 0)
+		(layer "F.SilkS")
+		(uuid "451b46d1-834f-4806-8643-14d9ef2ae57a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "*"
+		(at 155 81 0)
+		(layer "F.SilkS")
+		(uuid "4a4ba4df-4dec-45e9-8a33-b3c998d8d919")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1206"
+		(at 106.1 71.1 0)
+		(layer "F.SilkS")
+		(uuid "56f46f55-5098-4f73-b652-ade0562e1125")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "*"
+		(at 155 71.4 0)
+		(layer "F.SilkS")
+		(uuid "5703d089-3ba9-4c1f-a92d-b30ca197f9c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "*"
+		(at 149.7 57.8 0)
+		(layer "F.SilkS")
+		(uuid "58827ae6-fe6f-40ec-ba98-a508f2afd8e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0603"
+		(at 108.5 97.1 0)
+		(layer "F.SilkS")
+		(uuid "7d26ce5b-a53a-4d5a-b306-b3dd5a089f6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "*"
+		(at 149.5 66.4 0)
+		(layer "F.SilkS")
+		(uuid "94356e40-d141-45ca-a48a-8b1760dbf856")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0805"
+		(at 102.5 80 0)
+		(layer "F.SilkS")
+		(uuid "a6a5b9bb-4fe7-4558-aab4-05ce4340e0a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "*"
+		(at 163 68.4 0)
+		(layer "F.SilkS")
+		(uuid "c002aada-af8d-49f3-b73e-4c47d12acac6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "*"
+		(at 163.5 64.4 0)
+		(layer "F.SilkS")
+		(uuid "d06a395f-82c9-41ec-a45d-abc159895277")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0805"
+		(at 144.2 66.1 0)
+		(layer "F.SilkS")
+		(uuid "daf64522-1799-4522-a47f-9d8957e810ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0603"
+		(at 164.2 96.6 0)
+		(layer "F.SilkS")
+		(uuid "dbe2b44d-10f5-4f7f-9352-14bb44d1609f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Company talks"
 		(at 156.6 59.8 0)
 		(layer "B.Mask")
@@ -18287,12 +18467,12 @@
 		(uuid "22c7b0b4-f52e-4f76-9a42-a765fd41c07d")
 	)
 	(segment
-		(start 107.55 92.75)
-		(end 105 92.75)
+		(start 120 94.59)
+		(end 108.59 94.59)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "4681e7f5-7ccc-4173-979a-d3e2994fa39f")
+		(uuid "4a9ebbbc-86be-4366-8f6a-f4d2ba8d160a")
 	)
 	(segment
 		(start 161.25 69.91)
@@ -18319,20 +18499,20 @@
 		(uuid "58a87cf2-da35-4780-8228-4c83e6f1df7e")
 	)
 	(segment
+		(start 106.75 92.75)
+		(end 105 92.75)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "5cea8a48-78c3-4587-9a1a-b3bf71b7d17a")
+	)
+	(segment
 		(start 165 63.5)
 		(end 162.6 61.1)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 12)
 		(uuid "63fd10d4-a8a9-4093-acc3-b95c059aa84a")
-	)
-	(segment
-		(start 120 94.59)
-		(end 108.59 94.59)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 12)
-		(uuid "6766a90b-b819-4912-a571-b6702d5d41c7")
 	)
 	(segment
 		(start 164.2 66.6)
@@ -18383,12 +18563,12 @@
 		(uuid "a0fc27d1-f794-4984-a532-b2eb1581d20b")
 	)
 	(segment
-		(start 107.6 93.6)
-		(end 107.6 92.8)
+		(start 108.59 94.59)
+		(end 106.75 92.75)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "a6077597-9e5f-46b2-b058-8b6ca15eaf47")
+		(uuid "a2f46e9f-7d97-4537-bb63-712e244f847d")
 	)
 	(segment
 		(start 156.8 59.6)
@@ -18405,14 +18585,6 @@
 		(layer "F.Cu")
 		(net 12)
 		(uuid "b1ff9fbf-a114-43d5-85aa-388d4029848d")
-	)
-	(segment
-		(start 107.6 92.8)
-		(end 107.55 92.75)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 12)
-		(uuid "bc609db1-e0f5-423d-b18c-2f5d9e8135ee")
 	)
 	(segment
 		(start 105 72.625)
@@ -18469,14 +18641,6 @@
 		(layer "F.Cu")
 		(net 12)
 		(uuid "e9f16b65-1cb8-46dc-8fb5-58cdd8c3e47a")
-	)
-	(segment
-		(start 108.59 94.59)
-		(end 107.6 93.6)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 12)
-		(uuid "ed8f6075-db55-4ada-88a8-8673ded6cde0")
 	)
 	(segment
 		(start 156.8 59)
