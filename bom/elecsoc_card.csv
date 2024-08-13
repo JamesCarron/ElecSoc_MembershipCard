@@ -1,10 +1,11 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"R11";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"5";;;
-2;"C2,C1";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";2;"10u";;;
-3;"D3,D4,D5,D2,D1";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";5;"WHITE";;;
-4;"R6,R7,R4,R3,R5";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";5;"390";;;
-5;"J1";"USB_A_Male_inboard";1;"Conn_01x02_Pin";;;
-6;"R1,R2";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"50k";;;
-7;"R8,R10,R9";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";3;"150";;;
-8;"D8,D7,D6";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";3;"RED";;;
-9;"U1";"SOIC-8_3.9x4.9mm_P1.27mm";1;"NA555D";;;
+"Reference","Value","Datasheet","Footprint","Qty","DNP","MPN"
+"C1,C2,C3","10u","https://www.mouser.ie/datasheet/2/585/MLCC-1837944.pdf","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","3","","CL21A106KPFNNNF"
+"D1,D2,D3,D4,D5","WHITE","https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/smlmn2wb1cw1(c)-e.pdf","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","5","","SMLMN2WB1CW1 "
+"D6,D7,D8","RED","https://www.mouser.ie/datasheet/2/180/IN_S85AT_Series_V1_1-2323391.pdf","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","3","","IN-S85AT5UW"
+"J2","Conn_01x02_Pin","https://www.mouser.ie/datasheet/2/418/6/ENG_CD_826632_P-2048118.pdf","Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical","1","","826632-1"
+"R1,R2,R18,R19","78k7","https://www.mouser.ie/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf","Resistor_SMD:R_1206_3216Metric","4",""," RT1206FRE0778K7L"
+"R3,R4,R5,R6,R7","3k","https://www.mouser.ie/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf","Resistor_SMD:R_1206_3216Metric","5","","RT1206FRE073KL"
+"R8,R9,R10,R12,R13,R14,R15","150","https://www.vishay.com/doc?28705","Resistor_SMD:R_0603_1608Metric","7","","MCT06030C1500FP500"
+"R11","5","https://www.mouser.ie/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf","Resistor_SMD:R_1206_3216Metric","1","","RT1206FRD075R1L"
+"R16,R17,R20,R21","1k","https://www.vishay.com/doc?28705","Resistor_SMD:R_0402_1005Metric","4","","MCS04020C1001FE000"
+"U1","NA555D","http://www.ti.com/lit/ds/symlink/ne555.pdf","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","1","","621-NE555S-13"
