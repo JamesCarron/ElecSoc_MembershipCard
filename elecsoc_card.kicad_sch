@@ -3183,7 +3183,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "43b901d3-d69c-4c72-984c-2c2fc8fdf8ec")
 		(property "Reference" "R16"
