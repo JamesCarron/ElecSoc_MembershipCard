@@ -5,8 +5,9 @@
 	(uuid "ec1e128b-e85b-4f54-a1e1-536be465431f")
 	(paper "A4")
 	(title_block
-		(title "ElecSoc USB business card")
-		(company "ElecSoc")
+		(title "ElecSoc Soldering Practice Card")
+		(date "2024-08-14")
+		(company "JayceDesign")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -2249,7 +2250,7 @@
 	)
 	(text "RED Leds\nVf = 3V\nIf = 5mA\nRled = (Vs - Vf)/If = (5 - 3)/0.005 = 400\n\nWhite Leds\nVf = 2.9\nIf = 5m\nRled = (Vs - Vf)/If = (5 - 2.9)/0.005 = 420"
 		(exclude_from_sim no)
-		(at 231.648 103.124 0)
+		(at 22.86 70.612 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2258,20 +2259,9 @@
 		)
 		(uuid "130331d1-8e21-4a1c-b2ab-a4ca90dc1b13")
 	)
-	(text "T = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 50k * 10u \n  = 1.04s"
+	(text "If optional resistors added:\nT = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 78.7k * 10u \n  = 1.636s\nT = 0.693*(R1/2+2*R2/2)*C1\n  = 0.693 * 3 * 78.7k/2 * 10u \n  = 0.818s"
 		(exclude_from_sim no)
-		(at 232.41 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15837bff-c3f2-43b3-bf4d-db76729f4426")
-	)
-	(text "If optional resistors added:\nT = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 50k * 10u \n  = 1.663s\nT = 0.693*(R1/2+2*R2/2)*C1\n  = 0.693 * 3 * 40k * 10u \n  = 0.832s"
-		(exclude_from_sim no)
-		(at 231.902 135.89 0)
+		(at 228.346 115.824 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2291,9 +2281,9 @@
 		)
 		(uuid "28e4272d-12c0-41a7-a954-0aaec28e2ab9")
 	)
-	(text "If optional caps added:\nT = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 50k * 10u \n  = 1.663s\nT = 0.693*(R1+2*R2)*(C1+C3)\n  = 0.693 * 3 * 50k * 20u \n  = 3.326s"
+	(text "If optional caps added:\nT = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 78.7k * 10u \n  = 1.636s\nT = 0.693*(R1+2*R2)*(C1+C3)\n  = 0.693 * 3 * 78.7k * 20u \n  = 3.272s"
 		(exclude_from_sim no)
-		(at 231.394 119.888 0)
+		(at 228.6 99.822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2312,17 +2302,6 @@
 			(justify left bottom)
 		)
 		(uuid "39278a56-b670-4a22-9031-f29846f17014")
-	)
-	(text "T = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 10k * 47u \n  = 0.97s"
-		(exclude_from_sim no)
-		(at 232.41 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b18cd05-1b8a-4e89-890a-6aefb0aeb741")
 	)
 	(text "Pin Headers"
 		(exclude_from_sim no)
@@ -2392,7 +2371,7 @@
 	)
 	(text "Resistors and capacitance values for oscillator"
 		(exclude_from_sim no)
-		(at 232.41 58.42 0)
+		(at 229.362 77.216 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2401,9 +2380,9 @@
 		)
 		(uuid "b6d4f16a-8dd9-4e4a-8708-f00d6aeb96a1")
 	)
-	(text "If all components placed, result is the original period\nT = 0.693*(R1/2+2*R2/2)*(C1+C2)\n  = 0.693 * 3 * 40k * 20u \n  = 1.663s"
+	(text "If all components placed, result is the original period\nT = 0.693*(R1/2+2*R2/2)*C1*2\n  = 0.693*(R1+2*R2)*C1"
 		(exclude_from_sim no)
-		(at 231.14 144.78 0)
+		(at 228.092 124.206 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2456,9 +2435,9 @@
 		)
 		(uuid "e7b95747-333d-437d-bfa5-ed51505d49e0")
 	)
-	(text "T = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 4.99k * 47u \n  = 0.487s"
+	(text "T = 0.693*(R1+2*R2)*C1\n  = 0.693 * 3 * 78.7k * 10u \n  = 1.636s"
 		(exclude_from_sim no)
-		(at 232.41 64.77 0)
+		(at 229.362 83.566 0)
 		(effects
 			(font
 				(size 1.27 1.27)
