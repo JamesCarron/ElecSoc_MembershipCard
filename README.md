@@ -15,7 +15,7 @@ To assemble the card, start with the bigger packages first. There are 4 differen
 _The order of soldering is indicated above._
 
 In red, the practice components. Green, components to assemble once comfortable with the process. Orange, extra components for tuning oscillating circuit. You don't need to solder all optional components, only as many as you need to feel comfortable with the soldering process.
-\section{Testing}
+## Testing
 If properly assembled, when the card is powered, the LEDs will blink with a period of 1.5s. The practice network is a voltage divider. The voltage drop at the lower resistors should be 1.25V.\\
-If you add the 5$\Omega$ resistor on the top right, you can slot the card in a USB port.\\
+If you add the 5Ω resistor on the top right, you can slot the card in a USB port.\\
 You can add the optional resistors for the oscillator circuit. This will reduce the period to about 0.8s. Adding only the extra capacitor will increase the period to 3.3s.
